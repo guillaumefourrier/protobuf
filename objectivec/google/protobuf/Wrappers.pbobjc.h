@@ -45,6 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
  * which is a @c GPBExtensionRegistry that includes all the extensions defined by
  * this file and all files that it depends on.
  **/
+__attribute((visibility("default")
 @interface GPBWrappersRoot : GPBRootObject
 @end
 
@@ -59,6 +60,7 @@ typedef GPB_ENUM(GPBDoubleValue_FieldNumber) {
  *
  * The JSON representation for `DoubleValue` is JSON number.
  **/
+__attribute((visibility("default")
 @interface GPBDoubleValue : GPBMessage
 
 /** The double value. */
@@ -77,6 +79,7 @@ typedef GPB_ENUM(GPBFloatValue_FieldNumber) {
  *
  * The JSON representation for `FloatValue` is JSON number.
  **/
+__attribute((visibility("default")
 @interface GPBFloatValue : GPBMessage
 
 /** The float value. */
@@ -95,6 +98,7 @@ typedef GPB_ENUM(GPBInt64Value_FieldNumber) {
  *
  * The JSON representation for `Int64Value` is JSON string.
  **/
+__attribute((visibility("default")
 @interface GPBInt64Value : GPBMessage
 
 /** The int64 value. */
@@ -113,6 +117,7 @@ typedef GPB_ENUM(GPBUInt64Value_FieldNumber) {
  *
  * The JSON representation for `UInt64Value` is JSON string.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64Value : GPBMessage
 
 /** The uint64 value. */
@@ -131,6 +136,7 @@ typedef GPB_ENUM(GPBInt32Value_FieldNumber) {
  *
  * The JSON representation for `Int32Value` is JSON number.
  **/
+__attribute((visibility("default")
 @interface GPBInt32Value : GPBMessage
 
 /** The int32 value. */
@@ -149,6 +155,7 @@ typedef GPB_ENUM(GPBUInt32Value_FieldNumber) {
  *
  * The JSON representation for `UInt32Value` is JSON number.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32Value : GPBMessage
 
 /** The uint32 value. */
@@ -167,6 +174,7 @@ typedef GPB_ENUM(GPBBoolValue_FieldNumber) {
  *
  * The JSON representation for `BoolValue` is JSON `true` and `false`.
  **/
+__attribute((visibility("default")
 @interface GPBBoolValue : GPBMessage
 
 /** The bool value. */
@@ -185,6 +193,7 @@ typedef GPB_ENUM(GPBStringValue_FieldNumber) {
  *
  * The JSON representation for `StringValue` is JSON string.
  **/
+__attribute((visibility("default")
 @interface GPBStringValue : GPBMessage
 
 /** The string value. */
@@ -203,6 +212,7 @@ typedef GPB_ENUM(GPBBytesValue_FieldNumber) {
  *
  * The JSON representation for `BytesValue` is JSON string.
  **/
+__attribute((visibility("default")
 @interface GPBBytesValue : GPBMessage
 
 /** The bytes value. */

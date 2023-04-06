@@ -52,6 +52,7 @@ static inline NSData *DataFromCStr(const char *str) {
 // The number of repetitions of any repeated objects inside of test messages.
 extern const uint32_t kGPBDefaultRepeatCount;
 
+__attribute((visibility("default")
 @interface GPBTestCase : XCTestCase
 
 - (void)setAllFields:(TestAllTypes *)message repeatedCount:(uint32_t)count;

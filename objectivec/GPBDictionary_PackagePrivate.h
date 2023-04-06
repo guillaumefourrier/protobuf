@@ -60,7 +60,8 @@
 //%DICTIONARY_PRIVATE_INTERFACES(KEY_NAME, Enum, Enum)
 
 //%PDDM-DEFINE DICTIONARY_PRIVATE_INTERFACES(KEY_NAME, VALUE_NAME, HELPER)
-//%@interface GPB##KEY_NAME##VALUE_NAME##Dictionary () <GPBDictionaryInternalsProtocol> {
+//%__attribute((visibility("default")
+@interface GPB##KEY_NAME##VALUE_NAME##Dictionary () <GPBDictionaryInternalsProtocol> {
 //% @package
 //%  GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 //%}
@@ -83,48 +84,56 @@
 //%PDDM-EXPAND DICTIONARY_PRIV_INTERFACES_FOR_POD_KEY(UInt32)
 // This block of code is generated, do not edit it directly.
 
+__attribute((visibility("default")
 @interface GPBUInt32UInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32Int32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32UInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32Int64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32BoolDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32FloatDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32DoubleDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32EnumDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -134,6 +143,7 @@
                               keyDataType:(GPBDataType)keyDataType;
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt32ObjectDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -146,48 +156,56 @@
 //%PDDM-EXPAND DICTIONARY_PRIV_INTERFACES_FOR_POD_KEY(Int32)
 // This block of code is generated, do not edit it directly.
 
+__attribute((visibility("default")
 @interface GPBInt32UInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32Int32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32UInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32Int64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32BoolDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32FloatDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32DoubleDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32EnumDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -197,6 +215,7 @@
                               keyDataType:(GPBDataType)keyDataType;
 @end
 
+__attribute((visibility("default")
 @interface GPBInt32ObjectDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -209,48 +228,56 @@
 //%PDDM-EXPAND DICTIONARY_PRIV_INTERFACES_FOR_POD_KEY(UInt64)
 // This block of code is generated, do not edit it directly.
 
+__attribute((visibility("default")
 @interface GPBUInt64UInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64Int32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64UInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64Int64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64BoolDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64FloatDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64DoubleDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64EnumDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -260,6 +287,7 @@
                               keyDataType:(GPBDataType)keyDataType;
 @end
 
+__attribute((visibility("default")
 @interface GPBUInt64ObjectDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -272,48 +300,56 @@
 //%PDDM-EXPAND DICTIONARY_PRIV_INTERFACES_FOR_POD_KEY(Int64)
 // This block of code is generated, do not edit it directly.
 
+__attribute((visibility("default")
 @interface GPBInt64UInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64Int32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64UInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64Int64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64BoolDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64FloatDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64DoubleDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64EnumDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -323,6 +359,7 @@
                               keyDataType:(GPBDataType)keyDataType;
 @end
 
+__attribute((visibility("default")
 @interface GPBInt64ObjectDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -335,48 +372,56 @@
 //%PDDM-EXPAND DICTIONARY_PRIV_INTERFACES_FOR_POD_KEY(Bool)
 // This block of code is generated, do not edit it directly.
 
+__attribute((visibility("default")
 @interface GPBBoolUInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolUInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolBoolDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolFloatDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolDoubleDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolEnumDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -386,6 +431,7 @@
                               keyDataType:(GPBDataType)keyDataType;
 @end
 
+__attribute((visibility("default")
 @interface GPBBoolObjectDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -398,48 +444,56 @@
 //%PDDM-EXPAND DICTIONARY_POD_PRIV_INTERFACES_FOR_KEY(String)
 // This block of code is generated, do not edit it directly.
 
+__attribute((visibility("default")
 @interface GPBStringUInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBStringInt32Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBStringUInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBStringInt64Dictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBStringBoolDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBStringFloatDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBStringDoubleDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 }
 @end
 
+__attribute((visibility("default")
 @interface GPBStringEnumDictionary () <GPBDictionaryInternalsProtocol> {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -453,6 +507,7 @@
 
 #pragma mark - NSDictionary Subclass
 
+__attribute((visibility("default")
 @interface GPBAutocreatedDictionary : NSMutableDictionary {
   @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;

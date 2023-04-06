@@ -62,6 +62,7 @@ typedef NS_ENUM(uint8_t, GPBFieldType) {
 /**
  * Describes a proto message.
  **/
+__attribute((visibility("default")
 @interface GPBDescriptor : NSObject<NSCopying>
 
 /** Name of the message. */
@@ -121,6 +122,7 @@ typedef NS_ENUM(uint8_t, GPBFieldType) {
 /**
  * Describes a proto file.
  **/
+__attribute((visibility("default")
 @interface GPBFileDescriptor : NSObject
 
 /** The package declared in the proto file. */
@@ -135,6 +137,7 @@ typedef NS_ENUM(uint8_t, GPBFieldType) {
 /**
  * Describes a oneof field.
  **/
+__attribute((visibility("default")
 @interface GPBOneofDescriptor : NSObject
 /** Name of the oneof field. */
 @property(nonatomic, readonly) NSString *name;
@@ -164,6 +167,7 @@ typedef NS_ENUM(uint8_t, GPBFieldType) {
 /**
  * Describes a proto field.
  **/
+__attribute((visibility("default")
 @interface GPBFieldDescriptor : NSObject
 
 /** Name of the field. */
@@ -213,6 +217,7 @@ typedef NS_ENUM(uint8_t, GPBFieldType) {
 /**
  * Describes a proto enum.
  **/
+__attribute((visibility("default")
 @interface GPBEnumDescriptor : NSObject
 
 /** Name of the enum. */
@@ -293,6 +298,7 @@ typedef NS_ENUM(uint8_t, GPBFieldType) {
 /**
  * Describes a proto extension.
  **/
+__attribute((visibility("default")
 @interface GPBExtensionDescriptor : NSObject<NSCopying>
 /** Field number under which the extension is stored. */
 @property(nonatomic, readonly) uint32_t fieldNumber;

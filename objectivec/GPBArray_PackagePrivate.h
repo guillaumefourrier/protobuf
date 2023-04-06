@@ -45,7 +45,8 @@
 //%PDDM-DEFINE ARRAY_INTERFACE_EXTRAS(NAME, TYPE)
 //%#pragma mark - NAME
 //%
-//%@interface GPB##NAME##Array () {
+//%__attribute((visibility("default")
+@interface GPB##NAME##Array () {
 //% @package
 //%  GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
 //%}
@@ -57,6 +58,7 @@
 
 #pragma mark - Int32
 
+__attribute((visibility("default")
 @interface GPBInt32Array () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -65,6 +67,7 @@
 
 #pragma mark - UInt32
 
+__attribute((visibility("default")
 @interface GPBUInt32Array () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -73,6 +76,7 @@
 
 #pragma mark - Int64
 
+__attribute((visibility("default")
 @interface GPBInt64Array () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -81,6 +85,7 @@
 
 #pragma mark - UInt64
 
+__attribute((visibility("default")
 @interface GPBUInt64Array () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -89,6 +94,7 @@
 
 #pragma mark - Float
 
+__attribute((visibility("default")
 @interface GPBFloatArray () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -97,6 +103,7 @@
 
 #pragma mark - Double
 
+__attribute((visibility("default")
 @interface GPBDoubleArray () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -105,6 +112,7 @@
 
 #pragma mark - Bool
 
+__attribute((visibility("default")
 @interface GPBBoolArray () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -113,6 +121,7 @@
 
 #pragma mark - Enum
 
+__attribute((visibility("default")
 @interface GPBEnumArray () {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;
@@ -123,6 +132,7 @@
 
 #pragma mark - NSArray Subclass
 
+__attribute((visibility("default")
 @interface GPBAutocreatedArray : NSMutableArray {
  @package
   GPB_UNSAFE_UNRETAINED GPBMessage *_autocreator;

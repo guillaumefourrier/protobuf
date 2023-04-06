@@ -48,6 +48,7 @@ typedef struct GPBMessage_Storage {
 
 typedef struct GPBMessage_Storage *GPBMessage_StoragePtr;
 
+__attribute((visibility("default")
 @interface GPBMessage () {
  @package
   // NOTE: Because of the +allocWithZone code using NSAllocateObject(),

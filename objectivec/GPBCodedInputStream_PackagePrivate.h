@@ -51,6 +51,7 @@ typedef struct GPBCodedInputStreamState {
   NSUInteger recursionDepth;
 } GPBCodedInputStreamState;
 
+__attribute((visibility("default")
 @interface GPBCodedInputStream () {
  @package
   struct GPBCodedInputStreamState state_;

@@ -82,6 +82,7 @@ CF_EXTERN_C_END
  *
  * @note Subclassing of @c GPBCodedInputStream is NOT supported.
  **/
+__attribute((visibility("default")
 @interface GPBCodedInputStream : NSObject
 
 /**

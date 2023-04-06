@@ -35,6 +35,7 @@
 @class GPBCodedOutputStream;
 @class GPBCodedInputStream;
 
+__attribute((visibility("default")
 @interface GPBUnknownFieldSet ()
 
 + (BOOL)isFieldTag:(int32_t)tag;

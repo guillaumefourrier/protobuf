@@ -63,7 +63,8 @@
  * ```
  * GPB_ENUM_FWD_DECLARE(Foo_Enum)
  *
- * @interface BarClass : NSObject
+ * __attribute((visibility("default")
+@interface BarClass : NSObject
  * @property (nonatomic) enum Foo_Enum value;
  * - (void)bazMethod:(enum Foo_Enum):value;
  * @end

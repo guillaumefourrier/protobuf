@@ -45,6 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32Array : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -217,6 +218,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32Array : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -389,6 +391,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64Array : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -561,6 +564,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64Array : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -733,6 +737,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBFloatArray : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -905,6 +910,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBDoubleArray : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -1077,6 +1083,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolArray : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -1249,6 +1256,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBEnumArray : NSObject <NSCopying>
 
 /** The number of elements contained in the array. */
@@ -1562,7 +1570,8 @@ NS_ASSUME_NONNULL_END
 //% *
 //% * @note This class is not meant to be subclassed.
 //% **/
-//%@interface GPB##NAME##Array : NSObject <NSCopying>
+//%__attribute((visibility("default")
+@interface GPB##NAME##Array : NSObject <NSCopying>
 //%
 //%/** The number of elements contained in the array. */
 //%@property(nonatomic, readonly) NSUInteger count;
@@ -1654,7 +1663,8 @@ NS_ASSUME_NONNULL_END
 //% *
 //% * @note This class is not meant to be subclassed.
 //% **/
-//%@interface GPB##NAME##Array : NSObject <NSCopying>
+//%__attribute((visibility("default")
+@interface GPB##NAME##Array : NSObject <NSCopying>
 //%
 //%/** The number of elements contained in the array. */
 //%@property(nonatomic, readonly) NSUInteger count;

@@ -63,6 +63,7 @@ extern NSString *const GPBCodedOutputStreamException_WriteFailed;
  *
  * @note Subclassing of GPBCodedOutputStream is NOT supported.
  **/
+__attribute((visibility("default")
 @interface GPBCodedOutputStream : NSObject
 
 /**

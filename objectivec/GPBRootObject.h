@@ -39,6 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
  * GPBExtensionRegistry for all the extensions defined by that file and
  * the files it depends on.
  **/
+__attribute((visibility("default")
 @interface GPBRootObject : NSObject
 
 /**

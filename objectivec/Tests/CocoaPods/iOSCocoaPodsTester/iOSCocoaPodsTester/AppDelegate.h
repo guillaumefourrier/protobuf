@@ -30,6 +30,7 @@
 
 #import <UIKit/UIKit.h>
 
+__attribute((visibility("default")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -80,6 +80,7 @@ CF_EXTERN_C_END
  *       @c +parseFromData:extensionRegistry:error: to provide an extension
  *       registry.
  **/
+__attribute((visibility("default")
 @interface GPBMessage : NSObject<NSSecureCoding, NSCopying>
 
 // If you add an instance method/property to this class that may conflict with

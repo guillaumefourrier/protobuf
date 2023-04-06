@@ -45,6 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
  * which is a @c GPBExtensionRegistry that includes all the extensions defined by
  * this file and all files that it depends on.
  **/
+__attribute((visibility("default")
 @interface GPBAnyRoot : GPBRootObject
 @end
 
@@ -136,6 +137,7 @@ typedef GPB_ENUM(GPBAny_FieldNumber) {
  *       "value": "1.212s"
  *     }
  **/
+__attribute((visibility("default")
 @interface GPBAny : GPBMessage
 
 /**

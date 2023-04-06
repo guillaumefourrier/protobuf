@@ -137,6 +137,7 @@ typedef NS_OPTIONS(uint32_t, GPBDescriptorInitializationFlags) {
   GPBDescriptorInitializationFlag_WireFormat        = 1 << 1,
 };
 
+__attribute((visibility("default")
 @interface GPBDescriptor () {
  @package
   NSArray *fields_;
@@ -173,6 +174,7 @@ typedef NS_OPTIONS(uint32_t, GPBDescriptorInitializationFlags) {
 
 @end
 
+__attribute((visibility("default")
 @interface GPBFileDescriptor ()
 - (instancetype)initWithPackage:(NSString *)package
                      objcPrefix:(NSString *)objcPrefix
@@ -181,6 +183,7 @@ typedef NS_OPTIONS(uint32_t, GPBDescriptorInitializationFlags) {
                          syntax:(GPBFileSyntax)syntax;
 @end
 
+__attribute((visibility("default")
 @interface GPBOneofDescriptor () {
  @package
   const char *name_;
@@ -191,6 +194,7 @@ typedef NS_OPTIONS(uint32_t, GPBDescriptorInitializationFlags) {
 - (instancetype)initWithName:(const char *)name fields:(NSArray *)fields;
 @end
 
+__attribute((visibility("default")
 @interface GPBFieldDescriptor () {
  @package
   GPBMessageFieldDescription *description_;
@@ -209,6 +213,7 @@ typedef NS_OPTIONS(uint32_t, GPBDescriptorInitializationFlags) {
                                   syntax:(GPBFileSyntax)syntax;
 @end
 
+__attribute((visibility("default")
 @interface GPBEnumDescriptor ()
 // valueNames, values and extraTextFormatInfo have to be long lived, they are
 // held as raw pointers.
@@ -233,6 +238,7 @@ typedef NS_OPTIONS(uint32_t, GPBDescriptorInitializationFlags) {
                 enumVerifier:(GPBEnumValidationFunc)enumVerifier;
 @end
 
+__attribute((visibility("default")
 @interface GPBExtensionDescriptor () {
  @package
   GPBExtensionDescription *description_;

@@ -54,6 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32UInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -149,6 +150,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32Int32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -244,6 +246,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32UInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -339,6 +342,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32Int64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -434,6 +438,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32BoolDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -529,6 +534,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32FloatDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -624,6 +630,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32DoubleDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -719,6 +726,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32EnumDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -881,6 +889,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt32ObjectDictionary<__covariant ObjectType> : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -975,6 +984,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32UInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1070,6 +1080,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32Int32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1165,6 +1176,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32UInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1260,6 +1272,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32Int64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1355,6 +1368,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32BoolDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1450,6 +1464,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32FloatDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1545,6 +1560,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32DoubleDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1640,6 +1656,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32EnumDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1802,6 +1819,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt32ObjectDictionary<__covariant ObjectType> : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1896,6 +1914,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64UInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -1991,6 +2010,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64Int32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2086,6 +2106,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64UInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2181,6 +2202,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64Int64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2276,6 +2298,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64BoolDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2371,6 +2394,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64FloatDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2466,6 +2490,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64DoubleDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2561,6 +2586,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64EnumDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2723,6 +2749,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBUInt64ObjectDictionary<__covariant ObjectType> : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2817,6 +2844,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64UInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -2912,6 +2940,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64Int32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3007,6 +3036,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64UInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3102,6 +3132,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64Int64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3197,6 +3228,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64BoolDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3292,6 +3324,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64FloatDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3387,6 +3420,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64DoubleDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3482,6 +3516,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64EnumDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3644,6 +3679,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBInt64ObjectDictionary<__covariant ObjectType> : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3738,6 +3774,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolUInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3833,6 +3870,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -3928,6 +3966,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolUInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4023,6 +4062,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4118,6 +4158,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolBoolDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4213,6 +4254,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolFloatDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4308,6 +4350,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolDoubleDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4403,6 +4446,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolEnumDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4565,6 +4609,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBBoolObjectDictionary<__covariant ObjectType> : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4659,6 +4704,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringUInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4754,6 +4800,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringInt32Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4849,6 +4896,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringUInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -4944,6 +4992,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringInt64Dictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -5039,6 +5088,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringBoolDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -5134,6 +5184,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringFloatDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -5229,6 +5280,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringDoubleDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -5324,6 +5376,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  * @note This class is not meant to be subclassed.
  **/
+__attribute((visibility("default")
 @interface GPBStringEnumDictionary : NSObject <NSCopying>
 
 /** Number of entries stored in this dictionary. */
@@ -5547,7 +5600,8 @@ NS_ASSUME_NONNULL_END
 //% *
 //% * @note This class is not meant to be subclassed.
 //% **/
-//%@interface DICTIONARY_CLASS_DECL##VHELPER(KEY_NAME, VALUE_NAME, VALUE_TYPE) : NSObject <NSCopying>
+//%__attribute((visibility("default")
+@interface DICTIONARY_CLASS_DECL##VHELPER(KEY_NAME, VALUE_NAME, VALUE_TYPE) : NSObject <NSCopying>
 //%
 //%/** Number of entries stored in this dictionary. */
 //%@property(nonatomic, readonly) NSUInteger count;
@@ -5609,7 +5663,8 @@ NS_ASSUME_NONNULL_END
 //% *
 //% * @note This class is not meant to be subclassed.
 //% **/
-//%@interface GPB##KEY_NAME##VALUE_NAME##Dictionary : NSObject <NSCopying>
+//%__attribute((visibility("default")
+@interface GPB##KEY_NAME##VALUE_NAME##Dictionary : NSObject <NSCopying>
 //%
 //%/** Number of entries stored in this dictionary. */
 //%@property(nonatomic, readonly) NSUInteger count;

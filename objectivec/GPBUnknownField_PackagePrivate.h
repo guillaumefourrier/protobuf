@@ -34,6 +34,7 @@
 
 @class GPBCodedOutputStream;
 
+__attribute((visibility("default")
 @interface GPBUnknownField ()
 
 - (void)writeToOutput:(GPBCodedOutputStream *)output;

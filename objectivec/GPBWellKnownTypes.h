@@ -66,6 +66,7 @@ typedef NS_ENUM(NSInteger, GPBWellKnownTypesErrorCode) {
 /**
  * Category for GPBTimestamp to work with standard Foundation time/date types.
  **/
+__attribute((visibility("default")
 @interface GPBTimestamp (GBPWellKnownTypes)
 
 /** The NSDate representation of this GPBTimestamp. */
@@ -104,6 +105,7 @@ typedef NS_ENUM(NSInteger, GPBWellKnownTypesErrorCode) {
 /**
  * Category for GPBDuration to work with standard Foundation time type.
  **/
+__attribute((visibility("default")
 @interface GPBDuration (GBPWellKnownTypes)
 
 /**
@@ -141,6 +143,7 @@ typedef NS_ENUM(NSInteger, GPBWellKnownTypesErrorCode) {
 /**
  * Category for GPBAny to help work with the message within the object.
  **/
+__attribute((visibility("default")
 @interface GPBAny (GBPWellKnownTypes)
 
 /**

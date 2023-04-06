@@ -54,6 +54,7 @@ NS_ASSUME_NONNULL_BEGIN
  * MyMessage *msg = [MyMessage parseData:data extensionRegistry:registry error:&parseError];
  * ```
  **/
+__attribute((visibility("default")
 @interface GPBExtensionRegistry : NSObject<NSCopying>
 
 /**

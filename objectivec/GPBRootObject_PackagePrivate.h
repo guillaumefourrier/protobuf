@@ -34,6 +34,7 @@
 
 @class GPBExtensionDescriptor;
 
+__attribute((visibility("default")
 @interface GPBRootObject ()
 
 // Globally register.

@@ -76,6 +76,7 @@ BOOL GPBNullValue_IsValidValue(int32_t value);
  * which is a @c GPBExtensionRegistry that includes all the extensions defined by
  * this file and all files that it depends on.
  **/
+__attribute((visibility("default")
 @interface GPBStructRoot : GPBRootObject
 @end
 
@@ -95,6 +96,7 @@ typedef GPB_ENUM(GPBStruct_FieldNumber) {
  *
  * The JSON representation for `Struct` is JSON object.
  **/
+__attribute((visibility("default")
 @interface GPBStruct : GPBMessage
 
 /** Unordered map of dynamically typed values. */
@@ -133,6 +135,7 @@ typedef GPB_ENUM(GPBValue_Kind_OneOfCase) {
  *
  * The JSON representation for `Value` is JSON value.
  **/
+__attribute((visibility("default")
 @interface GPBValue : GPBMessage
 
 /** The kind of value. */
@@ -186,6 +189,7 @@ typedef GPB_ENUM(GPBListValue_FieldNumber) {
  *
  * The JSON representation for `ListValue` is JSON array.
  **/
+__attribute((visibility("default")
 @interface GPBListValue : GPBMessage
 
 /** Repeated field of dynamically typed values. */

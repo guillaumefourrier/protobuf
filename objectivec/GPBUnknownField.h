@@ -40,6 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
  * Store an unknown field. These are used in conjunction with
  * GPBUnknownFieldSet.
  **/
+__attribute((visibility("default")
 @interface GPBUnknownField : NSObject<NSCopying>
 
 /** Initialize a field with the given number. */

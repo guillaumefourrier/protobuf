@@ -30,6 +30,7 @@
 
 #import <Cocoa/Cocoa.h>
 
+__attribute((visibility("default")
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 

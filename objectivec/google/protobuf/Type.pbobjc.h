@@ -183,6 +183,7 @@ BOOL GPBField_Cardinality_IsValidValue(int32_t value);
  * which is a @c GPBExtensionRegistry that includes all the extensions defined by
  * this file and all files that it depends on.
  **/
+__attribute((visibility("default")
 @interface GPBTypeRoot : GPBRootObject
 @end
 
@@ -200,6 +201,7 @@ typedef GPB_ENUM(GPBType_FieldNumber) {
 /**
  * A protocol buffer message type.
  **/
+__attribute((visibility("default")
 @interface GPBType : GPBMessage
 
 /** The fully qualified message name. */
@@ -260,6 +262,7 @@ typedef GPB_ENUM(GPBField_FieldNumber) {
 /**
  * A single field of a message type.
  **/
+__attribute((visibility("default")
 @interface GPBField : GPBMessage
 
 /** The field type. */
@@ -339,6 +342,7 @@ typedef GPB_ENUM(GPBEnum_FieldNumber) {
 /**
  * Enum type definition.
  **/
+__attribute((visibility("default")
 @interface GPBEnum : GPBMessage
 
 /** Enum type name. */
@@ -387,6 +391,7 @@ typedef GPB_ENUM(GPBEnumValue_FieldNumber) {
 /**
  * Enum value definition.
  **/
+__attribute((visibility("default")
 @interface GPBEnumValue : GPBMessage
 
 /** Enum value name. */
@@ -413,6 +418,7 @@ typedef GPB_ENUM(GPBOption_FieldNumber) {
  * A protocol buffer option, which can be attached to a message, field,
  * enumeration, etc.
  **/
+__attribute((visibility("default")
 @interface GPBOption : GPBMessage
 
 /**

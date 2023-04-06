@@ -45,6 +45,7 @@ NS_ASSUME_NONNULL_BEGIN
  * which is a @c GPBExtensionRegistry that includes all the extensions defined by
  * this file and all files that it depends on.
  **/
+__attribute((visibility("default")
 @interface GPBSourceContextRoot : GPBRootObject
 @end
 
@@ -58,6 +59,7 @@ typedef GPB_ENUM(GPBSourceContext_FieldNumber) {
  * `SourceContext` represents information about the source of a
  * protobuf element, like the file in which it is defined.
  **/
+__attribute((visibility("default")
 @interface GPBSourceContext : GPBMessage
 
 /**
